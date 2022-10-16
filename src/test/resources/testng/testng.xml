@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Framework Sample Test Suite" parallel="methods" verbose="1" configfailurepolicy="continue"
+       thread-count="5">
+
+    <listeners>
+        <listener class-name="com.im.service.util.listener.TestListener"/>
+        <listener class-name="com.im.service.util.listener.HtmlReportListener"/>
+    </listeners>
+
+    <test name="Sample Tests">
+        <classes>
+            <class name="test.CreateUserTest"/>
+            <class name="test.UpdateExistingUserTest"/>
+            <class name="test.DeleteUserGoRest"/>
+            <class name="test.GetAllUserListTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Work/API_Framework/webservice-taf/src/test/java/test/CreateUserTest.java">
+        <classes>
+            <class name="test.CreateUserTest"></class>
+            <class name="test.DeleteUserGoRest"></class>
+            <class name="test.GetAllUserListTest"></class>
+            <class name="test.UpdateExistingUserTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+{
+    "login_type": "$loginType",
+    "login_id": "$loginId",
+    "login_mode": "$loginMode",
+    "info": {}
+}
